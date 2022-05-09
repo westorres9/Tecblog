@@ -28,10 +28,6 @@ body {
     width: 920px;
     padding: 15px;
     margin: 0 auto;
-}
-
-#side-area {
-    background: orange;
 } 
 
 #posts-area {
@@ -50,6 +46,21 @@ body {
     float: right;
 }
 
+.side-content {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.side-content a {
+    display: block;
+}
+
+.side-posts {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #4e4e4e;
+}
+
 #footer {
     clear: both;
     background-color: #CCC;
@@ -66,26 +77,28 @@ a {
     text-decoration: none;
 }
 
-a:link, a:visited {
-    color: #f7b600;
+#menu-area a:link {
+    color: #FFF;
+    padding: 8px 12px;
 }
+
+
 
 a:hover {
     text-decoration: underline;
 }
 
-#header-area a:link, a:visited {
-    color: #FFF;
-    padding: 8px 12px;
-}
-
-#header-area a:hover {
+#menu-area a:hover {
     color: #f7b600;
     background-color: #FFF;
     text-decoration: none;  
 }
 
-#posts-area a:link, a:visited {
+a:link, a:visited {
+    color: #f7b600;
+}
+
+#post a:link {
     color: #f7b600;
 }
 
@@ -102,6 +115,12 @@ h2 {
     color: #f7b600;
 }
 
+h3 {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
 .white {
     color: white;
 }
@@ -113,3 +132,5 @@ h2 {
     margin-bottom: 10px;
     display: block;
 }
+
+
